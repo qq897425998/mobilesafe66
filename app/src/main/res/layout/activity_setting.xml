@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:tangxin="http://www.tangxin.club/mobilesafe66.tangxin.club.mobilesafe66"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mobilesafe66.tangxin.club.mobilesafe66.activities.SettingActivity">
+
+    <TextView android:text="设置中中心"
+        style="@style/TitleStyle" />
+
+    <mobilesafe66.tangxin.club.mobilesafe66.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tangxin:titles="自动更新"
+        tangxin:desc_on="开启"
+        tangxin:desc_off="关闭"
+        />
+</LinearLayout>

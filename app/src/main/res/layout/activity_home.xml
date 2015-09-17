@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="主界面"
+        style="@style/TitleStyle"
+        android:id="@+id/tv_home" />
+    <mobilesafe66.tangxin.club.mobilesafe66.view.FocusedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a application softwave for you phone save it can protected your phone"
+        android:singleLine="true"
+        android:textColor="#ff000f"
+        android:ellipsize="marquee"
+        />
+    <GridView
+        android:id="@+id/gvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3">
+    </GridView>
+
+</LinearLayout>
